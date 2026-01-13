@@ -1,0 +1,48 @@
+{
+  "name": "nestjs-mongoose-repository",
+  "version": "1.0.0",
+  "description": "Type-safe base repository for NestJS + Mongoose with CRUD, pagination, transactions, and lean queries",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "nestjs",
+    "mongoose",
+    "repository",
+    "mongodb",
+    "crud",
+    "pagination",
+    "typescript",
+    "base-repository",
+    "transactions",
+    "lean"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Massix99/nestjs-mongoose-repository"
+  },
+  "homepage": "https://github.com/Massix99/nestjs-mongoose-repository#readme",
+  "bugs": {
+    "url": "https://github.com/Massix99/nestjs-mongoose-repository/issues"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0 || ^11.0.0",
+    "@nestjs/mongoose": "^10.0.0 || ^11.0.0",
+    "mongoose": "^7.0.0 || ^8.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/mongoose": "^11.0.0",
+    "mongoose": "^8.9.0",
+    "typescript": "~5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
